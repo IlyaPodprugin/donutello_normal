@@ -45,9 +45,16 @@ body{
     font-size: 18px;
     line-height: 18px;
     text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
 }
 
-
+.menu__list-link:hover {
+    background-size: 100% 2px;
+}
 
 .top{
     padding: 120px 0 50px;
@@ -79,8 +86,8 @@ body{
     border-radius: 1em;
     color: #fff;
     font-weight: bold;
-    font-size: 30px;
-    padding: 10px 40px;
+    font-size: 26px;
+    padding: 10px 36px;
 }
 
 .down-arrow__btn{
