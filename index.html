@@ -44,18 +44,44 @@
         </div>
       </div>
 
-      <div class="top">
-        <h1 class="top__title">Everybody will get the donut!</h1>
-        <p class="top__tagline">Delivery of all kinds for all tastes</p>
-        <a href="#" class="top__link">Go to menu</a>
-      </div>
-
-      <div class="down-arrow__btn">
-        <img src="img/down_btn.svg" alt="" class="down-arrow__btn-img">
+      <div class="header-screen">
+        <h1 class="header-screen__title">Everybody will get the donut!</h1>
+        <p class="header-screen__tagline">Delivery of all kinds for all tastes</p>
+        <a class="header-screen__link" href="#">Go to menu</a>
+        <div class="down-arrow__btn">
+          <img src="img/down_btn.svg" alt="">
+        </div>
       </div>
     </div>
   </header>
 
+  <main>
+    <section class="products">
+      <div class="container">
+        <div class="product">
+          <img src="img/product-img.png" alt="">
+          <div class="product__row product__row_mbottom">
+            <h3 class="product__title">Classic donut</h3>
+            <p class="product__price">199₽</p>
+          </div>
+          <div class="product__row">
+            <div class="product__counter">
+              <button class="product__counter-btn">-</button>
+              <span class="product__counter-quantity">1</span>
+              <button class="product__counter-btn">+</button>
+            </div>
+            <select class="product__extra">
+              <option value="15">Мед</option>
+              <option value="25">Сгущенка</option>
+              <option value="20">Ванильный крем</option>
+              <option value="30">Клубничный джем</option>
+            </select>
+            <button class="product__buy">В корзину</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
 </body>
 
